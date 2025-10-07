@@ -16,9 +16,9 @@ The service is built with **Node.js** and the **Express.js** framework. It uses 
 ## Setup Instructions
 
 1.  Clone the repository:
-    `git clone https://github.com/your-username/plum-ai-scheduler.git`
+    `git clone https://github.com/pikachusensei/plum_shreyansh_singh_cse.git`
 2.  Navigate to the project directory:
-    `cd plum-ai-scheduler`
+    `cd plum`
 3.  Install dependencies:
     `npm install`
 4.  Create a Google Cloud Service Account key file and place it in the root of the project with the name `gcloud-credentials.json`.

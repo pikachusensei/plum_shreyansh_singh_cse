@@ -1,0 +1,4 @@
+curl -X POST -H "Content-Type: application/json" -d '{"text": "Book a dentist appointment for next friday at 3pm"}' https://unblossomed-subapparent-aiden.ngrok-free.dev/api/schedule
+
+
+curl -X POST -F "image=@note.png" https://unblossomed-subapparent-aiden.ngrok-free.dev/api/schedule

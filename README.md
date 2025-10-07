@@ -37,7 +37,7 @@ The service exposes a single endpoint: `POST /api/schedule`
 ```bash
 curl -X POST -H "Content-Type: application/json" \
 -d '{"text": "Book a dentist for next friday at 3pm", "user_timezone": "America/New_York"}' \
-http://localhost:3000/api/schedule
+https://unblossomed-subapparent-aiden.ngrok-free.dev/api/schedule
 ```
 **Response:**
 ```json
@@ -54,11 +54,11 @@ http://localhost:3000/api/schedule
 
 ### 2. Schedule via Handwritten Image
 
-Create an image file (`note.jpg`) with handwritten text like "Schedule heart appointment on Friday 3pm".
+Create an image file (`note.png`) with handwritten text like "Schedule heart appointment on Friday 3pm".
 
 **Request:**
 ```bash
-curl -X POST -F "image=@note.jpg" http://localhost:3000/api/schedule
+curl -X POST -F "image=@note.jpg" https://unblossomed-subapparent-aiden.ngrok-free.dev/api/schedule
 ```
 **Response:**
 ```json

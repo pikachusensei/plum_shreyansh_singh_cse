@@ -1,6 +1,6 @@
 # AI-Powered Appointment Scheduler
 
-This is a backend service built for Plum's hiring assignment (Problem Statement 5). It parses natural language appointment requests from both text and images (including handwriting) and converts them into structured JSON data.
+It parses natural language appointment requests from both text and images (including handwriting) and converts them into structured JSON data.
 
 ## Architecture
 
